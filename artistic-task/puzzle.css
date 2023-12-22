@@ -1,0 +1,30 @@
+.puzzle {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.attempts {
+    width: 80%;
+}
+
+.attempt {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 16px;
+}
+
+.bullet {
+    margin-right: 8px;
+}
+
+.bullet::before {
+    content: "🖌️";
+}
+
+.conclusion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+}

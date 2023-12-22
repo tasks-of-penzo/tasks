@@ -1,0 +1,85 @@
+.puzzle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.restaurant {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
+    background-color: 	#9f1919;
+    border: 2px solid #800020;
+    color: #e49424;
+
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    box-sizing: border-box;
+    padding: 0 16px;
+}
+
+.bill {
+    background-color: #faf9f6;
+    border: 2px solid black;
+    color: #232b2b;
+
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    box-sizing: border-box;
+    padding: 0 16px;
+}
+
+.heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 700;
+    font-size: 14pt;
+
+    margin-top: 16px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.type {
+    text-decoration: underline;
+    font-weight: 700;
+    margin: 12px 0;
+}
+
+.section:last-child .items {
+    margin-bottom: 16px;
+}
+
+.clues {
+    margin-top: 48px;
+}
+
+.clues li {
+    margin-bottom: 8px;
+}
+
+.link {
+    margin-top: 32px;
+    font-size: 18pt;
+}

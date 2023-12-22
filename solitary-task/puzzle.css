@@ -1,0 +1,56 @@
+.puzzle {
+    margin-top: 48px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.puzzle .large-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    font-weight: 700;
+    margin-bottom: 64px;
+}
+
+.puzzle .large-container .large-number {
+    font-size: 36pt;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.puzzle .large-container .large-brace {
+    font-size: 150pt;
+    margin-top: -36px;
+    margin-right: 16px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.puzzle .small-clues {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.puzzle .small-clues .clue:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+.topics-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.topics-heading {
+    font-weight: 700;
+    margin-right: 8px;
+}

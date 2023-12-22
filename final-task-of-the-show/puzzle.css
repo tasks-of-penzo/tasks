@@ -1,0 +1,19 @@
+.puzzle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+
+    margin-top: 48px;
+}
+
+.puzzle span {
+    width: 80px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18pt;
+    margin: 16px 0;
+}

@@ -1,0 +1,10 @@
+.puzzle {
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 8px 0;
+}

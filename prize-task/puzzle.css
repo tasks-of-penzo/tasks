@@ -1,0 +1,26 @@
+.puzzle .prompt {
+    font-weight: 700;
+    margin: 16px 0;   
+}
+
+.puzzle .prizes {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    margin-bottom: 48px;
+}
+
+.puzzle .prizes .container {
+    width: 130px;
+    height: 130px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    border: 1px solid #333333;
+}
+
+.puzzle .prizes img {
+    width: 120px;
+}

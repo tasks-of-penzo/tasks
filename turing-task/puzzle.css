@@ -1,0 +1,37 @@
+.puzzle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.captcha {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+
+.grid {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prompt {
+    font-weight: 700;
+    font-size: 14pt;
+    margin-bottom: 12px;
+}
+
+img {
+    height: 90px;
+}

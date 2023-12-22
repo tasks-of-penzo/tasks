@@ -1,0 +1,15 @@
+.puzzle {
+    width: 100%;
+}
+
+.cats {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cats img {
+    height: 140px;
+    margin: 16px;
+}

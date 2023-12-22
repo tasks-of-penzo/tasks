@@ -1,0 +1,50 @@
+.puzzle {
+    width: 100%;
+}
+
+.puzzle .grid-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.puzzle .grid-container img {
+    height: 600px;
+}
+
+.clues {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-left: 36px;
+    margin-top: 48px;
+}
+
+.clues ul {
+    padding-left: 0;
+}
+
+.clues ul li {
+    margin-bottom: 4px;
+}
+
+.clues-left {
+    width: 50%;
+}
+
+.clues-right {
+    width: 40%;
+}
+
+.blob {
+    height: 12px;
+    width: 8px;
+    margin-right: 2px;
+    background-color: black;
+    display: inline-block;
+}
+
+.blob.space {
+    margin-right: 6px;
+}
