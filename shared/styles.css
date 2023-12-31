@@ -18,6 +18,7 @@ page {
     align-items: center;
 
     border: 5px solid #ffe180;
+    position: relative;
 }
 
 page[size="A4"] {  
@@ -38,6 +39,15 @@ page[size="A4-very-long"] {
     padding: 24px 36px;
 }
 
+.answer-check {
+    position: absolute;
+    top: 24px;
+    width: 150px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
 h1::before {
     content: url('seal.png');
     height: 50px;
@@ -46,7 +56,7 @@ h1::before {
 }
 
 h1 {
-    margin-top: 12px;
+    margin-top: 24px;
     text-align: center;
 }
 
