@@ -44,6 +44,20 @@
     margin-bottom: 4px;
 }
 
+.clue-container {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.large-brace {
+    margin-left: 8px;
+}
+
+.large-symbol {
+    font-size: 36pt;
+}
+
 .topics-container {
     display: flex;
     align-items: center;
